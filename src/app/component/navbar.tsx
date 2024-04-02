@@ -8,28 +8,68 @@ export default function Navbar() {
 
   const links = [
     {
+      id: 0,
+      link: "/",
+      Name: "หน้าแรก",
+    },
+    {
       id: 1,
-      link: "Login",
+      link: "history",
+      Name: "ประวิติ",
+    },
+    {
+      id: 2,
+      link: "news",
+      Name: "กิจกรรม",
+    },
+    {
+      id: 3,
+      link: "course",
+      Name: "คอร์สสอนวิชา",
+    },
+    {
+      id: 4,
+      link: "horoscope",
+      Name: "ติดต่อดูดวง",
+    },
+    {
+      id: 5,
+      link: "fengshui",
+      Name: "ติดต่อจัดฮวงจุ้ย",
+    },
+    {
+      id: 6,
+      link: "rite",
+      Name: "ติดต่องานพิธีกรรม",
+    },
+    {
+      id: 7,
+      link: "applyMembership",
+      Name: "สมัครเป็นศิษย์",
+    },
+    {
+      id: 8,
+      link: "contact",
+      Name: "สอบถาม",
     },
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black ">
+    <div className=" sticky top-0 flex justify-between items-center w-full h-20 px-4 text-white bg-black z-50 ">
       <div>
         {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
         <h1 className="text-3xl font-signature ml-2">
-          <a
+          <Link
             className="link-underline link-underline-black"
-            href=""
-            target="_blank"
+            href="/"
             rel="noreferrer"
           >
             "สายมูสร้างเงินล้าน"
-          </a>
+          </Link>
         </h1>
       </div>
 
-      <ul className="hidden md:flex">
+      <ul className="hidden ">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -48,14 +88,14 @@ export default function Navbar() {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          {links.map(({ id, link }) => (
+        <ul className="flex flex-col justify-center items-center absolute z-0 top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+          {links.map(({ id, link, Name }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
               <Link onClick={() => setNav(!nav)} href={link}>
-                {link}
+                {Name}
               </Link>
             </li>
           ))}

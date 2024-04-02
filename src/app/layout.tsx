@@ -21,10 +21,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          <Navbar />
-          <div className="flex">
-            <Sidebar />
-            {children}
+          <div className="flex flex-col justify-center items-center ">
+            <div className="w-full h-fit max-w-[1700px] shadow-2xl shadow-stone-400">
+              <Navbar />
+              <div className="md:flex md:h-fit md:min-w-[1500px] md:-z-10">
+                <Sidebar />
+                {children}
+              </div>
+            </div>
           </div>
         </Providers>
       </body>
