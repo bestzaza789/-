@@ -55,7 +55,8 @@ export default function Product() {
     {
       id: 15,
       created_at: "2024-03-20 12:21:42.745522+00",
-      productName: "พัดซินแส ตำหนักเซียน ยันต์อรหันต์คุ้มกายา มูลค่า 199 บาท",
+      productName:
+        "พัดซินแส ตำหนักเซียน แถมฟรี ยันต์อรหันต์คุ้มกายา มูลค่า 199 บาท",
       price: 499,
       imageUrl:
         "https://lh3.googleusercontent.com/d/1tBQq8rgRzmApdGJEPg3z7cSPluYMA8rf",
@@ -64,7 +65,7 @@ export default function Product() {
       id: 4,
       created_at: "2024-03-20 12:22:06.642073+00",
       productName: "สบู่ นะหน้าทอง\nเมตตามหานิยม\n",
-      price: 159,
+      price: 199,
       imageUrl:
         "https://lh3.googleusercontent.com/d/1-PZsfdl5Q96Ye7yKmKc2BmKFm8khMy3U",
     },
@@ -80,7 +81,7 @@ export default function Product() {
       id: 6,
       created_at: "2024-03-20 12:22:33.466064+00",
       productName: "ยันต์มหามงคลผ่านพิธี\nขนาด 30x30 เซนติเมตร\n",
-      price: 2599,
+      price: 3599,
       imageUrl:
         "https://lh3.googleusercontent.com/d/1NgPJtyxXSIN74hfM9PkctF3bMUpAxAXe",
     },
@@ -95,7 +96,8 @@ export default function Product() {
     {
       id: 8,
       created_at: "2024-03-20 12:23:02.913502+00",
-      productName: "กระเป๋าบารมีครู 5 สี\nแถมคอร์สเรียนบริหารชีวิต\n",
+      productName:
+        'กระเป๋าบารมีครู 5 สี\nแถมคอร์สเรียนบริหารชีวิต "ศิษย์มีครู"\n',
       price: 999,
       imageUrl:
         "https://lh3.googleusercontent.com/d/12jLk3tAdeMwXccSlycsao6oOjciRHXx7",
@@ -103,7 +105,8 @@ export default function Product() {
     {
       id: 9,
       created_at: "2024-03-20 12:23:23.978882+00",
-      productName: "กระเป๋าบารมีครู 5 สี\nแถมคอร์สเรียนบริหารชีวิต\n",
+      productName:
+        'กระเป๋าบารมีครู 5 สี \nแถมคอร์สเรียนบริหารชีวิต "ศิษย์มีครู"\n',
       price: 999,
       imageUrl:
         "https://lh3.googleusercontent.com/d/1MOxpkh7W-50eThRN-ffwT1K4uSC7Jqnk",
@@ -130,7 +133,7 @@ export default function Product() {
       productName: "เบอร์มังกร 789",
       price: 89999,
       imageUrl:
-        "https://lh3.googleusercontent.com/d/1PlGGMDPV-fkau9yhvvuTYaoDVJAq7470",
+        "https://lh3.googleusercontent.com/d/1wObnXzL1zDxIW9q-ShsPL7ir3hRWBjhK",
     },
     //https://lh3.googleusercontent.com/d/1tBQq8rgRzmApdGJEPg3z7cSPluYMA8rf
   ];
