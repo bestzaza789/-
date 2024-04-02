@@ -23,7 +23,7 @@ export default function Product() {
       id: 2,
       created_at: "2024-03-20 12:21:30.42804+00",
       productName: "ไม้ครู\nเพื่อประกอบพิธีกรรม\n",
-      price: 289,
+      price: 299,
       imageUrl:
         "https://lh3.googleusercontent.com/d/1FVNUGwgExdQgakjI7Q1kFpQ2c7OH69iv",
     },
