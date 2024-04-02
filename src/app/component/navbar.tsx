@@ -15,7 +15,7 @@ export default function Navbar() {
     {
       id: 1,
       link: "history",
-      Name: "ประวิติ",
+      Name: "ประวัติ",
     },
     {
       id: 2,
@@ -23,32 +23,42 @@ export default function Navbar() {
       Name: "กิจกรรม",
     },
     {
+      id: 10,
+      link: "reward",
+      Name: "เกียรติรางวัล",
+    },
+    {
       id: 3,
       link: "course",
-      Name: "คอร์สสอนวิชา",
+      Name: "คอร์สเรียนโหราศาสตร์",
     },
     {
       id: 4,
+      link: "product",
+      Name: "วัตถุมงคล",
+    },
+    {
+      id: 5,
       link: "horoscope",
       Name: "ติดต่อดูดวง",
     },
     {
-      id: 5,
+      id: 6,
       link: "fengshui",
       Name: "ติดต่อจัดฮวงจุ้ย",
     },
     {
-      id: 6,
+      id: 7,
       link: "rite",
       Name: "ติดต่องานพิธีกรรม",
     },
     {
-      id: 7,
+      id: 8,
       link: "applyMembership",
       Name: "สมัครเป็นศิษย์",
     },
     {
-      id: 8,
+      id: 9,
       link: "contact",
       Name: "สอบถาม",
     },

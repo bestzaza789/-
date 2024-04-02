@@ -14,9 +14,6 @@ export default function ApplyMembership() {
         />
         <div>
           <h1 className="text-start text-[10px] md:text-[30px] m-[20px]">
-            ศิษย์ก้นกุฏิ(บอกบุญ ครบ 999 บาท)
-          </h1>
-          <h1 className="text-start text-[10px] md:text-[30px] m-[20px]">
             ได้ปันผลศิษย์ก้นกุฏิ ทุก 15 วัน 6% ที่มีการแนะนำส่วนตัว ตลอดไปเลย
           </h1>
           <h1 className="text-start text-[10px] md:text-[30px] m-[20px]">
@@ -26,7 +23,12 @@ export default function ApplyMembership() {
         </div>
 
         <div className="">
-          <Button colorScheme="orange">คลิกที่ปุ่มข้างล่างนี้เลย</Button>
+          <a
+            className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 border border-orange-700 rounded "
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdhOOn-5nqKoNOgoC4eq8VsnWyTlrV-inXP5ee7s7u5SZDG5w/viewform"
+          >
+            คลิกที่ปุ่มข้างล่างนี้เลย
+          </a>
         </div>
       </div>
     </div>
