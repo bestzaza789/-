@@ -31,7 +31,7 @@ export default function News() {
           </h1>
           <h1 className="text-[15px] my-[10px] md:text-[30px] md:my-[20px] text-start">
             ถูกต้องตามหลักโหราศาสตร์ วิชาตำหนักเซียน 12 องค์เทพ การันตีการสอน
-            ด้วยผลงานการสอนศิษย์ มากกว่า 3,000 คน ค่าครู เพียง 3,999 บาท
+            ด้วยผลงานการสอนศิษย์ มากกว่า 3,000 คน ค่าครู เพียง 2,999 บาท
           </h1>
           <h1 className="text-[15px] my-[10px] md:text-[30px] md:my-[20px] text-start">
             ได้เรียนวิชาการดูดวงไพ่ยิปซี แบบ CELTIC CROSS ขั้น แอดวานซ์
@@ -95,12 +95,12 @@ export default function News() {
           <Image
             src={courseHJ1}
             alt="history"
-            className="md:w-[400px] w-[150px] my-[10px] md:my-[20px] mx-2"
+            className="md:w-[400px] w-[130px] my-[10px] md:my-[20px] mx-2"
           />
           <Image
             src={courseHJ2}
             alt="history"
-            className="md:w-[400px] w-[150px] my-[10px] md:my-[20px] mx-2"
+            className="md:w-[400px] w-[130px] my-[10px] md:my-[20px] mx-2"
           />
         </div>
         <h1 className="text-[15px] my-[10px] md:text-[30px] md:my-[20px] text-start">

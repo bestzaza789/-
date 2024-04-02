@@ -20,12 +20,12 @@ export default function News() {
           <Image
             src={HR2}
             alt="history"
-            className="md:w-[300px] w-[100px] my-[10px] md:my-[20px] mx-2"
+            className="md:w-[300px] w-[150px] my-[10px] md:my-[20px] mx-2"
           />
           <Image
             src={HR3}
             alt="history"
-            className=" md:w-[300px] w-[100px] my-[10px] md:my-[20px] mx-2"
+            className=" md:w-[300px] w-[150px] my-[10px] md:my-[20px] mx-2"
           />
         </div>
 

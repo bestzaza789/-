@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import HJ1 from "../img/HJ1.png";
+import courseHJ1 from "../img/courseHJ1.png";
 import HJ2 from "../img/HJ2.png";
 import HJ3 from "../img/HJ3.png";
 import line from "../img/line.png";
@@ -12,19 +12,19 @@ export default function News() {
       <div className="flex flex-col justify-around items-center m-[20px] md:m-[50px] p-[20px] py-[20px]  animate-fade-right animate-once animate-ease-in-out animate-normal animate-fill-forwards">
         <div className="flex">
           <Image
-            src={HJ1}
+            src={courseHJ1}
             alt="history"
-            className="hidden md:flex md:w-[300px] w-[100px] my-[10px] md:my-[20px] mx-2"
+            className=" md:flex md:w-[400px] w-2/5 my-[10px] md:my-[20px] mx-1"
           />
           <Image
             src={HJ2}
             alt="history"
-            className="md:w-[300px] w-[100px] my-[10px] md:my-[20px] mx-2"
+            className=" md:w-[300px] w-1/4 my-[10px] md:my-[20px] mx-1"
           />
           <Image
             src={HJ3}
             alt="history"
-            className="md:w-[300px] w-[100px] my-[10px] md:my-[20px] mx-2"
+            className="md:w-[300px] w-1/4 my-[10px] md:my-[20px] mx-1"
           />
         </div>
 
