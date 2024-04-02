@@ -55,10 +55,10 @@ export default function Navbar() {
   ];
 
   return (
-    <div className=" sticky top-0 flex justify-between items-center w-full h-20 px-4 text-white bg-black z-50 ">
+    <div className=" sticky top-0 flex justify-between items-center w-full h-14 md:h-20 px-4 text-white bg-black z-50 ">
       <div>
         {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
-        <h1 className="text-3xl font-signature ml-2">
+        <h1 className="text-xl md:text-3xl font-signature ml-2">
           <Link
             className="link-underline link-underline-black"
             href="/"
@@ -92,7 +92,7 @@ export default function Navbar() {
           {links.map(({ id, link, Name }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer capitalize py-3 text-2xl"
             >
               <Link onClick={() => setNav(!nav)} href={link}>
                 {Name}

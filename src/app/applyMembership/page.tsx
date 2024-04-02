@@ -13,13 +13,13 @@ export default function ApplyMembership() {
           alt="สมัคร ศิษย์ก้นกุฏิ สมัครโปร 300 บาท"
         />
         <div>
-          <h1 className="text-start text-[30px] m-[20px]">
+          <h1 className="text-start text-[10px] md:text-[30px] m-[20px]">
             ศิษย์ก้นกุฏิ(บอกบุญ ครบ 999 บาท)
           </h1>
-          <h1 className="text-start text-[30px] m-[20px]">
+          <h1 className="text-start text-[10px] md:text-[30px] m-[20px]">
             ได้ปันผลศิษย์ก้นกุฏิ ทุก 15 วัน 6% ที่มีการแนะนำส่วนตัว ตลอดไปเลย
           </h1>
-          <h1 className="text-start text-[30px] m-[20px]">
+          <h1 className="text-start text-[10px] md:text-[30px] m-[20px]">
             ถ้าทุกรอบ 15 วัน บอกบุญได้ 1 รายการ ศิษย์ก้นกุฏิ
             จะได้แต้มบุญบอกบุญพิเศษหารกัน อีก 2% ด้วย
           </h1>
